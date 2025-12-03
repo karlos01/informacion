@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluciones Tecnológicas Integrales - Táctico</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#1B2631', // Base
+                        steel: '#5D6D7E', // Secundario
+                        smoke: '#F4F6F6', // Fondo
+                        electric: '#3498DB', // Acento
+                    },
+                    fontFamily: {
+                        sans: ['Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .module-divider {
+            border-bottom: 1px solid #5D6D7E;
+            opacity: 0.3;
+        }
+        @media print {
+            body { -webkit-print-color-adjust: exact; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body class="bg-gray-200 font-sans p-4 md:p-8">
+
+    <!-- Main Container (A4 Proportions approx) -->
+    <div class="max-w-4xl mx-auto bg-smoke shadow-2xl overflow-hidden relative print:shadow-none print:w-full">
+        
+        <!-- Top Decorator Line -->
+        <div class="h-2 bg-electric w-full"></div>
+
+        <!-- MÓDULO 1: PERFIL Y PROPUESTA DE VALOR -->
+        <header class="bg-navy text-white p-8 md:p-10 relative overflow-hidden">
+            <!-- Decorative Element -->
+            <div class="absolute top-0 right-0 opacity-10 transform translate-x-10 -translate-y-10">
+                <i class="fa-solid fa-microchip text-9xl"></i>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center gap-6 relative z-10">
+                <div class="bg-electric/20 p-5 rounded-full border-2 border-electric shadow-lg">
+                    <!-- Icono Escudo Minimalista con Nodo -->
+                    <div class="relative">
+                        <i class="fa-solid fa-shield text-5xl text-electric"></i>
+                        <i class="fa-solid fa-circle-nodes absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-navy text-xl"></i>
+                    </div>
+                </div>
+                <div class="text-center md:text-left">
+                    <h1 class="text-3xl md:text-4xl font-black tracking-wide uppercase mb-2">Soluciones Tecnológicas <span class="text-electric">Integrales</span></h1>
+                    <h2 class="text-steel text-lg font-medium mb-4 tracking-wider">Soporte Informático Especializado</h2>
+                    <p class="text-gray-300 text-sm max-w-2xl leading-relaxed italic border-l-4 border-electric pl-4">
+                        "Somos Técnicos en Informática especializados en la continuidad operativa de tus recursos digitales. Ofrecemos un servicio caracterizado por la confidencialidad, rapidez y precisión técnica. Desde el diagnóstico hasta la implementación, garantizo que tus herramientas de trabajo, estudio y comunicación funcionen al máximo rendimiento."
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Divider -->
+        <div class="module-divider w-full"></div>
+
+        <!-- Main Grid for Modules 2 & 3 -->
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            
+            <!-- MÓDULO 2: HARDWARE E INFRAESTRUCTURA DE CÓMPUTO -->
+            <section class="p-8 border-b md:border-b-0 md:border-r border-gray-300">
+                <div class="flex items-center gap-3 mb-5">
+                    <div class="bg-navy p-2 rounded text-white">
+                        <i class="fa-solid fa-computer text-lg"></i>
+                    </div>
+                    <h3 class="text-navy font-bold text-lg uppercase tracking-tight">Infraestructura y Soporte PC</h3>
+                </div>
+                <ul class="space-y-4 text-sm text-gray-700">
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-microchip text-electric mt-1"></i>
+                        <div class="flex-1">
+                            <strong class="text-navy block">Ensamblaje y Equipos a Medida</strong>
+                            <span class="text-xs text-gray-600">Workstations a medida para Oficina, Gaming (FPS), Arquitectura y Edición.</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-box-open text-electric mt-1"></i>
+                        <div class="flex-1">
+                            <strong class="text-navy block">Logística de Importación</strong>
+                            <span class="text-xs text-gray-600">Gestión segura (eBay/Amazon) para piezas exclusivas y repuestos difíciles.</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-screwdriver-wrench text-electric mt-1"></i>
+                        <div class="flex-1">
+                            <strong class="text-navy block">Mantenimiento Avanzado</strong>
+                            <span class="text-xs text-gray-600">Limpieza, pasta térmica de alta conductividad y reparación de placas.</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-camera text-electric mt-1"></i>
+                        <div class="flex-1">
+                            <strong class="text-navy block">Cámaras Profesionales</strong>
+                            <span class="text-xs text-gray-600">Mantenimiento y reparación de cuerpos y lentes fotográficos.</span>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-brands fa-windows text-electric mt-1"></i>
+                        <div class="flex-1">
+                            <strong class="text-navy block">Actualización y Licenciamiento</strong>
+                            <span class="text-xs text-gray-600">Instalación de SSD/NVMe/RAM. Licencias Originales (Windows/Office) e Instalación de Windows, Mac, Linux.</span>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- MÓDULO 3: MOVILIDAD Y TELEFONÍA INTELIGENTE -->
+            <section class="p-8 bg-white/50">
+                <div class="flex items-center gap-3 mb-5">
+                    <div class="bg-navy p-2 rounded text-white">
+                        <i class="fa-solid fa-mobile-screen text-lg"></i>
+                    </div>
+                    <h3 class="text-navy font-bold text-lg uppercase tracking-tight">Soporte Técnico Móvil</h3>
+                </div>
+                
+                <div class="space-y-4 text-sm text-gray-700">
+                    <!-- Hardware -->
+                    <div class="border-l-4 border-steel pl-3 py-1">
+                        <h4 class="font-bold text-navy text-xs uppercase mb-1">Hardware y Equipos</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-steel text-xs mt-1"></i>
+                                <span><strong class="text-navy">Venta:</strong> Smartphones gama media/alta.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-steel text-xs mt-1"></i>
+                                <span><strong class="text-navy">Reparación Certificada:</strong> Pantallas, baterías, módulos de carga, camaras y micrófonos.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Software -->
+                    <div class="border-l-4 border-electric pl-3 py-1 bg-blue-50/50 rounded-r">
+                        <h4 class="font-bold text-navy text-xs uppercase mb-1">Servicios de Software (Unlock)</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-unlock text-electric text-xs mt-1"></i>
+                                <span><strong class="text-navy">Factory Unlock:</strong> T-Mobile, MetroPCS, AT&T.</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-shield-virus text-electric text-xs mt-1"></i>
+                                <span><strong class="text-navy">Seguridad:</strong> FRP/Google/iCloud y Flasheo de firmware.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Divider -->
+        <div class="module-divider w-full"></div>
+
+        <!-- MÓDULO 4: INGENIERÍA DE SOFTWARE Y DISEÑO -->
+        <section class="bg-gray-100 p-8 relative">
+            <div class="flex items-center gap-3 mb-6">
+                 <div class="bg-navy p-2 rounded text-white">
+                    <i class="fa-solid fa-laptop-code text-lg"></i>
+                </div>
+                <h3 class="text-navy font-bold text-lg uppercase tracking-tight">Desarrollo de Software y Soluciones Digitales</h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm">
+                <!-- Col 1: Sistemas de Gestión -->
+                <div>
+                    <h4 class="font-bold text-electric mb-3 border-b border-gray-300 pb-1">Sistemas de Gestión (Desktop)</h4>
+                    <p class="text-gray-600 mb-3 text-xs italic">Sistemas a la medida para optimizar operaciones, recursos y ventas.</p>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-user-doctor text-steel"></i>
+                            <span><strong class="text-navy">Salud:</strong> Consultorios y Farmacias.</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-shop text-steel"></i>
+                            <span><strong class="text-navy">Comercio General:</strong> Control total de inventarios, facturación y RRHH, Autolotes, Gasolineras, Barberias, Pulperias, .</span>
+                        </li>
+                                            </ul>
+                </div>
+
+                <!-- Col 2: Web, Movil & Multimedia -->
+                <div>
+                    <h4 class="font-bold text-electric mb-3 border-b border-gray-300 pb-1">Digital & Multimedia</h4>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-brands fa-android text-steel mt-1"></i>
+                            <div>
+                                <strong class="text-navy block">Apps Móviles (Android/iOS)</strong>
+                                <span class="text-xs text-gray-600">Creación de Apps nativas e híbridas utilizando tecnologías modernas (React Native, TypeScript, MongoDB, SQL, Python, Flutter).</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-globe text-steel mt-1"></i>
+                            <div>
+                                <strong class="text-navy block">Presencia Web</strong>
+                                <span class="text-xs text-gray-600">Paginas Web (JavaScript, TypeScript, Frameworks, Python, Node.js, PostgreSQL, HTML, PHP, CSS).</span>
+                            </div>
+                        </li>
+                         <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-photo-film text-steel mt-1"></i>
+                            <div>
+                                <strong class="text-navy block">Multimedia</strong>
+                                <span class="text-xs text-gray-600">Elaboración y edición profesional de videos.</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+             <!-- Tech Logos Strip -->
+            <div class="mt-6 pt-4 border-t border-gray-200 flex flex-wrap justify-center gap-6 opacity-50 grayscale">
+                <i class="fa-brands fa-react text-2xl"></i>
+                <i class="fa-brands fa-php text-2xl"></i>
+                <i class="fa-brands fa-python text-2xl"></i>
+                <i class="fa-brands fa-wordpress text-2xl"></i>
+                <i class="fa-solid fa-database text-2xl"></i>
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="module-divider w-full"></div>
+
+        <!-- MÓDULO 5: ACADEMIA Y CONTACTO -->
+        <footer class="flex flex-col md:flex-row">
+            
+            <!-- Sub-sección A: Asistencia Académica -->
+            <div class="w-full md:w-5/12 p-8 bg-smoke text-navy border-r border-gray-300">
+                <div class="flex items-center gap-3 mb-4">
+                    <i class="fa-solid fa-graduation-cap text-steel text-lg"></i>
+                    <h3 class="font-bold text-base uppercase">Asistencia Académica</h3>
+                </div>
+                <ul class="text-sm space-y-3 text-gray-600">
+                    <li class="flex gap-2">
+                        <i class="fa-solid fa-caret-right text-electric mt-1"></i>
+                        <span>Redacción de Informes Técnicos y Tesis.</span>
+                    </li>
+                    <li class="flex gap-2">
+                        <i class="fa-solid fa-caret-right text-electric mt-1"></i>
+                        <span>Investigación rigurosa (Normas APA 7ma).</span>
+                    </li>
+                    <li class="flex gap-2">
+                        <i class="fa-solid fa-caret-right text-electric mt-1"></i>
+                        <span>Cursos de Computación Virtual.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Sub-sección B: Canal de Enlace (Destacado) -->
+            <div class="w-full md:w-7/12 p-8 bg-electric/10 flex flex-col justify-center relative overflow-hidden">
+                <!-- Background decoration -->
+                <div class="absolute right-0 bottom-0 opacity-5 pointer-events-none">
+                     <i class="fa-solid fa-headset text-9xl text-navy"></i>
+                </div>
+
+                <div class="relative z-10">
+                    <h3 class="text-navy font-bold text-sm uppercase tracking-wider mb-5 flex items-center gap-2">
+                        <span class="w-2 h-2 bg-electric rounded-full animate-pulse"></span>
+                        Canal de Enlace y Contratación
+                    </h3>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                            
+
+                        <!-- Soporte Técnico -->
+                        <div class="bg-white p-3 rounded shadow-sm border-l-4 border-electric">
+                            <p class="text-xs text-gray-500 uppercase font-bold mb-1">Soporte Técnico</p>
+                            <p class="font-bold text-navy text-sm">Lic. Carlos Martínez</p>
+                            <div class="mt-2 text-xs text-gray-600 space-y-1">
+                                <p><i class="fa-solid fa-phone text-electric w-4"></i> 9891-4958</p>
+                                <p><i class="fa-solid fa-envelope text-electric w-4"></i> dl.consultorpro@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Bottom Line -->
+        <div class="h-1 bg-navy w-full"></div>
+    </div>
+
+</body>
+</html>
